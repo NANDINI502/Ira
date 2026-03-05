@@ -1,0 +1,48 @@
+# Ira Backend Dependencies
+
+# Core Framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+python-multipart==0.0.9
+
+# Async Support
+httpx==0.26.0
+aiofiles==23.2.1
+websockets==12.0
+
+# LLM Integration
+ollama==0.1.6
+
+# RAG / Vector Database
+chromadb>=0.4.22
+llama-index>=0.10.0
+llama-index-embeddings-ollama>=0.1.0
+llama-index-llms-ollama>=0.1.0
+
+# Document Processing
+pypdf==4.0.1
+python-docx==1.1.0
+markdown==3.5.2
+
+# Voice (Whisper bindings)
+openai-whisper
+pyaudio==0.2.14
+soundfile==0.12.1
+numpy==1.26.4
+
+# Database
+aiosqlite==0.19.0
+
+# Utilities
+python-dotenv==1.0.1
+loguru==0.7.2
+
+# Home Assistant (Optional)
+homeassistant-api==4.1.0
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.4
+httpx==0.26.0
